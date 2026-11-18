@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sentiment & Phân tích — TradingwithAJay</title>
+  <meta name="description" content="Liquidation, Social Sentiment, phân tích và nhận định thị trường.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Tradingwith<span>AJay</span></a>
+      <button class="menu-toggle" aria-label="Menu">☰</button>
+      <nav>
+        <a href="index.html">Trang chủ</a>
+        <a href="about.html">Về mình</a>
+        <a href="sentiment.html" class="active">Sentiment & Phân tích</a>
+        <a href="knowledge.html">Kiến thức</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section style="padding-top: 3rem;">
+      <div class="container">
+        <h1>Sentiment & Phân tích</h1>
+        <p class="mb-1">Cập nhật gần nhất: <strong style="color: var(--accent);">—</strong> (bạn sẽ điền ngày khi đăng bài)</p>
+      </div>
+    </section>
+
+    <!-- Liquidation -->
+    <section>
+      <div class="container">
+        <h2 class="section-title">1. Liquidation 7 ngày gần nhất</h2>
+        
+        <div class="data-block">
+          <div class="data-label">Tổng thanh lý 7 ngày</div>
+          <div class="data-value">$—.—B</div>
+          <div class="data-sub">So với tuần trước: —</div>
+        </div>
+
+        <div class="grid-2">
+          <div class="data-block">
+            <div class="data-label">Long Liquidation</div>
+            <div class="data-value" style="font-size: 1.4rem;">—%</div>
+            <div class="data-sub">$—.—B</div>
+          </div>
+          <div class="data-block">
+            <div class="data-label">Short Liquidation</div>
+            <div class="data-value" style="font-size: 1.4rem;">—%</div>
+            <div class="data-sub">$—.—B</div>
+          </div>
+        </div>
+
+        <!-- Thanh minh họa -->
+        <div class="data-block">
+          <div class="data-label">Tỷ lệ Long / Short</div>
+          <div class="sentiment-bar">
+            <div class="bullish" style="width: 60%;"></div>
+            <div class="bearish" style="width: 40%;"></div>
+          </div>
+          <div style="display: flex; justify-content: space-between; font-size: 0.85rem; color: var(--text-muted);">
+            <span>Long 60%</span>
+            <span>Short 40%</span>
+          </div>
+        </div>
+
+        <p><em>Nhận định của bạn sẽ viết ở đây sau khi có số liệu thật.</em></p>
+      </div>
+    </section>
+
+    <!-- Social Sentiment -->
+    <section>
+      <div class="container">
+        <h2 class="section-title">2. Social Sentiment (X)</h2>
+        
+        <div class="data-block">
+          <div class="data-label">Tổng quan cảm xúc</div>
+          <div class="data-value" style="font-size: 1.5rem;">—% nghiêng Bullish / Bearish / Neutral</div>
+          
+          <div class="sentiment-bar" style="margin-top: 1.25rem;">
+            <div class="bullish" style="width: 55%;"></div>
+            <div class="bearish" style="width: 45%;"></div>
+          </div>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3>Account nghiêng Bullish</h3>
+            <p class="data-value" style="font-size: 1.5rem; margin: 0.5rem 0;">—</p>
+            <p class="card-meta">trong danh sách theo dõi</p>
+          </div>
+          <div class="card">
+            <h3>Account nghiêng Bearish</h3>
+            <p class="data-value" style="font-size: 1.5rem; margin: 0.5rem 0;">—</p>
+            <p class="card-meta">trong danh sách theo dõi</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Key Observations</h3>
+          <ul style="padding-left: 1.25rem; color: var(--text-muted);">
+            <li>Điểm quan sát 1…</li>
+            <li>Điểm quan sát 2…</li>
+            <li>Điểm quan sát 3…</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Upcoming Events -->
+    <section>
+      <div class="container">
+        <h2 class="section-title">3. Sự kiện quan trọng sắp tới (60 ngày)</h2>
+        
+        <div class="data-block">
+          <div class="event-item">
+            <div class="event-date">—/—</div>
+            <div>
+              <strong>Tên sự kiện</strong>
+              <span class="event-high">High</span>
+              <p style="margin: 0.25rem 0 0; font-size: 0.9rem;">Mô tả ngắn hoặc tác động dự kiến</p>
+            </div>
+          </div>
+          <div class="event-item">
+            <div class="event-date">—/—</div>
+            <div>
+              <strong>Tên sự kiện</strong>
+              <span class="event-high" style="background:#444;">Medium</span>
+              <p style="margin: 0.25rem 0 0; font-size: 0.9rem;">Mô tả ngắn</p>
+            </div>
+          </div>
+          <div class="event-item">
+            <div class="event-date">—/—</div>
+            <div>
+              <strong>Tên sự kiện</strong>
+              <span class="event-high" style="background:#333;">Low</span>
+              <p style="margin: 0.25rem 0 0; font-size: 0.9rem;">Mô tả ngắn</p>
+            </div>
+          </div>
+        </div>
+
+        <p style="margin-top: 1.5rem;"><em>Bạn sẽ thay các sự kiện thật (FOMC, dữ liệu lạm phát, IPO lớn, hội nghị…) vào đây.</em></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 TradingwithAJay · <a href="index.html">Trang chủ</a></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
