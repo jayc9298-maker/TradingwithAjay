@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sentiment & Phân tích — TradingwithAJay</title>
-  <meta name="description" content="Liquidation, Social Sentiment, phân tích và nhận định thị trường.">
+  <meta name="description" content="Liquidation, Social Sentiment, phân tích và nhận định thị trường BTC & XAU.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -25,85 +25,105 @@
     <section style="padding-top: 3rem;">
       <div class="container">
         <h1>Sentiment & Phân tích</h1>
-        <p class="mb-1">Cập nhật gần nhất: <strong style="color: var(--accent);">—</strong> (bạn sẽ điền ngày khi đăng bài)</p>
+        <p class="mb-1">Cập nhật gần nhất: <strong style="color: var(--accent);">19/11/2026</strong></p>
+      </div>
+    </section>
+
+    <!-- Tổng quan -->
+    <section>
+      <div class="container">
+        <h2 class="section-title">1. Tổng quan thị trường</h2>
+        <div class="data-block">
+          <p style="color: var(--text); margin-bottom: 0;">
+            Thị trường 2 tuần vừa qua chứng kiến một đợt correction mạnh hơn đa số mong đợi. 
+            Phần đông traders kỳ vọng bounce ở vùng 76–73k, nhưng tâm lý hiện tại khá <strong>bearish và thận trọng</strong> hơn. 
+            Open Interest đã giảm về vùng nền giá BTC tháng 8/2026.
+          </p>
+        </div>
       </div>
     </section>
 
     <!-- Liquidation -->
     <section>
       <div class="container">
-        <h2 class="section-title">1. Liquidation 7 ngày gần nhất</h2>
+        <h2 class="section-title">2. Liquidation 24h gần nhất</h2>
         
         <div class="data-block">
-          <div class="data-label">Tổng thanh lý 7 ngày</div>
-          <div class="data-value">$—.—B</div>
-          <div class="data-sub">So với tuần trước: —</div>
+          <div class="data-label">Tổng thanh lý 24h (ước tính)</div>
+          <div class="data-value">~$110M – $190M</div>
+          <div class="data-sub">Long bị thanh lý nhiều hơn Short rõ rệt</div>
         </div>
 
         <div class="grid-2">
           <div class="data-block">
             <div class="data-label">Long Liquidation</div>
-            <div class="data-value" style="font-size: 1.4rem;">—%</div>
-            <div class="data-sub">$—.—B</div>
+            <div class="data-value" style="font-size: 1.4rem;">Chiếm ưu thế</div>
+            <div class="data-sub">Áp lực long bị ép đóng</div>
           </div>
           <div class="data-block">
             <div class="data-label">Short Liquidation</div>
-            <div class="data-value" style="font-size: 1.4rem;">—%</div>
-            <div class="data-sub">$—.—B</div>
+            <div class="data-value" style="font-size: 1.4rem;">Thấp hơn</div>
+            <div class="data-sub">Phe short đang chiếm lợi thế</div>
           </div>
         </div>
 
-        <!-- Thanh minh họa -->
         <div class="data-block">
-          <div class="data-label">Tỷ lệ Long / Short</div>
+          <div class="data-label">Tỷ lệ Long / Short (minh họa)</div>
           <div class="sentiment-bar">
-            <div class="bullish" style="width: 60%;"></div>
-            <div class="bearish" style="width: 40%;"></div>
+            <div class="bullish" style="width: 65%;"></div>
+            <div class="bearish" style="width: 35%;"></div>
           </div>
           <div style="display: flex; justify-content: space-between; font-size: 0.85rem; color: var(--text-muted);">
-            <span>Long 60%</span>
-            <span>Short 40%</span>
+            <span>Long ~65%</span>
+            <span>Short ~35%</span>
           </div>
         </div>
 
-        <p><em>Nhận định của bạn sẽ viết ở đây sau khi có số liệu thật.</em></p>
+        <p style="margin-top: 1rem; color: var(--text-muted); font-size: 0.95rem;">
+          <em>Nhận định:</em> Áp lực long bị buộc phải đóng vẫn còn, cho thấy phe mua vẫn đang bị ép trong nhịp điều chỉnh này. 
+          Số liệu thay đổi theo thời gian thực (tham khảo CoinGlass).
+        </p>
       </div>
     </section>
 
     <!-- Social Sentiment -->
     <section>
       <div class="container">
-        <h2 class="section-title">2. Social Sentiment (X)</h2>
+        <h2 class="section-title">3. Social Sentiment (X)</h2>
         
         <div class="data-block">
           <div class="data-label">Tổng quan cảm xúc</div>
-          <div class="data-value" style="font-size: 1.5rem;">—% nghiêng Bullish / Bearish / Neutral</div>
+          <div class="data-value" style="font-size: 1.4rem;">Neutral nghiêng Bearish / Thận trọng</div>
           
           <div class="sentiment-bar" style="margin-top: 1.25rem;">
-            <div class="bullish" style="width: 55%;"></div>
-            <div class="bearish" style="width: 45%;"></div>
+            <div class="bullish" style="width: 35%;"></div>
+            <div class="bearish" style="width: 65%;"></div>
+          </div>
+          <div style="display: flex; justify-content: space-between; font-size: 0.85rem; color: var(--text-muted); margin-top: 0.35rem;">
+            <span>Bullish / Chờ đợi</span>
+            <span>Bearish / Thận trọng</span>
           </div>
         </div>
 
         <div class="grid-2">
           <div class="card">
-            <h3>Account nghiêng Bullish</h3>
-            <p class="data-value" style="font-size: 1.5rem; margin: 0.5rem 0;">—</p>
-            <p class="card-meta">trong danh sách theo dõi</p>
+            <h3>Xu hướng chính</h3>
+            <p class="data-value" style="font-size: 1.25rem; margin: 0.5rem 0;">Thận trọng</p>
+            <p class="card-meta">Ít người mạnh dạn gọi bottom</p>
           </div>
           <div class="card">
-            <h3>Account nghiêng Bearish</h3>
-            <p class="data-value" style="font-size: 1.5rem; margin: 0.5rem 0;">—</p>
-            <p class="card-meta">trong danh sách theo dõi</p>
+            <h3>Tâm lý chung</h3>
+            <p class="data-value" style="font-size: 1.25rem; margin: 0.5rem 0;">Risk-off</p>
+            <p class="card-meta">Sau đợt correction mạnh</p>
           </div>
         </div>
 
-        <div class="card">
+        <div class="card" style="margin-top: 1.25rem;">
           <h3>Key Observations</h3>
           <ul style="padding-left: 1.25rem; color: var(--text-muted);">
-            <li>Điểm quan sát 1…</li>
-            <li>Điểm quan sát 2…</li>
-            <li>Điểm quan sát 3…</li>
+            <li>Nhiều trader kỳ vọng bounce nhưng không dám vào mạnh vì đã bị “fake bounce” trước đó.</li>
+            <li>Tâm lý risk-off vẫn còn rõ sau đợt điều chỉnh mạnh hơn kỳ vọng.</li>
+            <li>Một số account lớn bắt đầu chú ý vùng hỗ trợ thấp hơn và chờ xác nhận từ CVD / volume.</li>
           </ul>
         </div>
       </div>
@@ -112,36 +132,93 @@
     <!-- Upcoming Events -->
     <section>
       <div class="container">
-        <h2 class="section-title">3. Sự kiện quan trọng sắp tới (60 ngày)</h2>
+        <h2 class="section-title">4. Sự kiện quan trọng sắp tới</h2>
         
         <div class="data-block">
           <div class="event-item">
-            <div class="event-date">—/—</div>
+            <div class="event-date">20/11</div>
             <div>
-              <strong>Tên sự kiện</strong>
+              <strong>GDP Mỹ</strong>
               <span class="event-high">High</span>
-              <p style="margin: 0.25rem 0 0; font-size: 0.9rem;">Mô tả ngắn hoặc tác động dự kiến</p>
+              <p style="margin: 0.25rem 0 0; font-size: 0.9rem;">Có thể ảnh hưởng đến DXY và risk assets</p>
             </div>
           </div>
           <div class="event-item">
-            <div class="event-date">—/—</div>
+            <div class="event-date">03–04/12</div>
             <div>
-              <strong>Tên sự kiện</strong>
-              <span class="event-high" style="background:#444;">Medium</span>
-              <p style="margin: 0.25rem 0 0; font-size: 0.9rem;">Mô tả ngắn</p>
+              <strong>NFP (Non-Farm Payrolls)</strong>
+              <span class="event-high">High</span>
+              <p style="margin: 0.25rem 0 0; font-size: 0.9rem;">Dữ liệu việc làm quan trọng – thường gây biến động mạnh</p>
             </div>
           </div>
           <div class="event-item">
-            <div class="event-date">—/—</div>
+            <div class="event-date">10/12</div>
             <div>
-              <strong>Tên sự kiện</strong>
-              <span class="event-high" style="background:#333;">Low</span>
-              <p style="margin: 0.25rem 0 0; font-size: 0.9rem;">Mô tả ngắn</p>
+              <strong>CPI Mỹ</strong>
+              <span class="event-high">High</span>
+              <p style="margin: 0.25rem 0 0; font-size: 0.9rem;">Lạm phát – tác động trực tiếp đến kỳ vọng lãi suất</p>
             </div>
           </div>
         </div>
+      </div>
+    </section>
 
-        <p style="margin-top: 1.5rem;"><em>Bạn sẽ thay các sự kiện thật (FOMC, dữ liệu lạm phát, IPO lớn, hội nghị…) vào đây.</em></p>
+    <!-- Technical View -->
+    <section>
+      <div class="container">
+        <h2 class="section-title">5. Technical View</h2>
+        
+        <div class="data-block">
+          <p style="color: var(--text); margin-bottom: 1rem;">
+            Nhìn từ khung <strong>3D và 1D</strong>, đường giá hiện tại đang gap khá xa với 2 đường MA, 
+            RSI cũng gap lớn so với đường trung bình. Dự kiến giá BTC sẽ có sự hồi phục để lấp khoảng gap này.
+          </p>
+
+          <p style="color: var(--text); margin-bottom: 0.75rem;"><strong>Các mốc cần chú ý:</strong></p>
+          <ul style="padding-left: 1.25rem; color: var(--text-muted); margin-bottom: 1.25rem;">
+            <li>Vùng <strong style="color: var(--accent);">67.2k</strong></li>
+            <li>Vùng <strong style="color: var(--accent);">74.4k</strong> — nếu break được có thể hướng tới 77k (khu vực POC volume lớn)</li>
+          </ul>
+
+          <p style="color: var(--text); margin-bottom: 1rem;">
+            CVD của cả Spot và Futures đã có phản ứng tạo nền đáy và tăng trở lại → 
+            <strong>áp lực bán đã được hấp thụ tốt hơn</strong>.
+          </p>
+
+          <p style="color: var(--text-muted); margin-bottom: 1.5rem;">
+            Còn khoảng hơn 10 ngày nữa để đóng nến tháng. Quan sát nến tháng sẽ cho view dự báo tháng sau rõ ràng hơn.
+          </p>
+        </div>
+
+        <!-- Charts -->
+        <div style="margin-top: 1.5rem;">
+          <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 0.75rem;">Biểu đồ tham chiếu:</p>
+          
+          <div style="margin-bottom: 1.5rem;">
+            <img src="images/chart_1.png" alt="Chart 1 - Technical analysis" 
+                 style="width: 100%; max-width: 100%; border-radius: 8px; border: 1px solid var(--border); display: block;">
+          </div>
+          
+          <div style="margin-bottom: 1.5rem;">
+            <img src="images/chart_2.png" alt="Chart 2 - Technical analysis" 
+                 style="width: 100%; max-width: 100%; border-radius: 8px; border: 1px solid var(--border); display: block;">
+          </div>
+          
+          <div style="margin-bottom: 0.5rem;">
+            <img src="images/chart_3.png" alt="Chart 3 - Technical analysis" 
+                 style="width: 100%; max-width: 100%; border-radius: 8px; border: 1px solid var(--border); display: block;">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ghi chú cuối -->
+    <section style="padding-bottom: 3rem;">
+      <div class="container">
+        <p style="font-size: 0.9rem; color: var(--text-muted); border-top: 1px solid var(--border); padding-top: 1.5rem;">
+          Nội dung được tổng hợp từ quan sát cá nhân + dữ liệu thị trường. 
+          Không phải lời khuyên đầu tư. Luôn quản lý rủi ro và tự chịu trách nhiệm với quyết định của mình.
+        </p>
       </div>
     </section>
   </main>
